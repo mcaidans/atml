@@ -16,7 +16,7 @@ lr = 0.01
 
 tf.enable_eager_execution()
 
-train_dataset_fp = "C:/Users/Aidan/Documents/AdvancedTopicML/Datasets/iris_training.csv"
+train_dataset_fp = "C:/Users/Aidan/atml/AdvancedTopicML/Datasets/iris_training.csv"
 train_dataset = []
 #Parse CSV in format of 4 features and 1 label per data entry
 def parse_csv(line):
